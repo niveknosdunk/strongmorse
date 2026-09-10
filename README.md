@@ -1,7 +1,7 @@
 # strongmorse
 scripts used in the paper "Complexes of strong Morse matchings"
 
-There are four python3 files in this repository:
+There are six python3 files in this repository:
 
 1. path_complex.py generates the maximal simplices of the strong Morse complex on the path P_n with n edges. This complex has dimension n-1 and is not pure for n at least 4, so these maximal simplices do not all have the same dimension. The output generates a combined file, a file of the facets, and a file of the maximal simplices of smaller dimension.
 2. simplex_tuples.py generates the complexes to which the strong Morse complexes on the n-simplex and its boundary collapse.
